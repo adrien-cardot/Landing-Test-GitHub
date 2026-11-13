@@ -128,7 +128,17 @@
 
   <!-- ===== Lot 4 : footer (branche feature/footer) ===== -->
   <footer class="footer">
-  </footer>
+    <div class="conteneur footer__inner">
+      <p class="footer__nom">Adrien Cardot · Développeur Shopify freelance</p>
+      <nav class="footer__liens" aria-label="Liens">
+        <a href="https://adriencardot.com" target="_blank" rel="noopener">Mon site</a>
+        <a href="https://www.malt.fr/profile/adriencardot" target="_blank" rel="noopener">Malt</a>
+        <a href="#contact">Contact</a>
+        <a href="#haut">Haut de page</a>
+      </nav>
+      <p class="footer__copie">© <span id="annee">2026</span> Adrien Cardot</p>
+    </div>
+    <script>document.getElementById('annee').textContent = new Date().getFullYear();</script>  </footer>
   <!-- ===== fin footer ===== -->
 
   <script src="js/contact.js" defer></script>
