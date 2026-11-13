@@ -35,7 +35,34 @@
 
     <!-- ===== Lot 3 : contact (branche feature/formulaire-contact) ===== -->
     <section class="contact" id="contact">
-    </section>
+    <div class="conteneur contact__inner">
+      <div class="contact__texte">
+        <h2>Un projet en tête ?</h2>
+        <p>Dites-m'en deux mots. Je réponds en général sous 48 h, avec une première idée du travail et du budget.</p>
+        <p>Vous préférez écrire directement : <a href="mailto:contact@adriencardot.com">contact@adriencardot.com</a></p>
+      </div>
+      <form class="contact__form" id="form-contact" novalidate>
+        <label>Votre nom
+          <input type="text" name="nom" autocomplete="name" required>
+        </label>
+        <label>Votre e-mail
+          <input type="email" name="email" autocomplete="email" required>
+        </label>
+        <label>Le projet
+          <select name="type">
+            <option>Création de boutique</option>
+            <option>Refonte</option>
+            <option>Migration vers Shopify</option>
+            <option>Autre chose</option>
+          </select>
+        </label>
+        <label>Votre message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <p class="contact__erreur" id="contact-erreur" role="alert" hidden></p>
+        <button class="bouton" type="submit">Envoyer</button>
+      </form>
+    </div>    </section>
     <!-- ===== fin contact ===== -->
 
   </main>
