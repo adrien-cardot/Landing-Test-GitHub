@@ -27,6 +27,9 @@ Pas de build, pas d'installation. Juste du HTML, du CSS et un peu de JavaScript.
 - Staging : https://landing-adrien-cardot-staging.vercel.app
 - Le circuit des branches et la maquette : [docs/SCHEMA.md](docs/SCHEMA.md)
 - Les règles de travail : [CONTRIBUTING.md](CONTRIBUTING.md)
+- Le déploiement et le retour arrière : [docs/DEPLOIEMENT.md](docs/DEPLOIEMENT.md)
+- La recette avant chaque mise en prod : [docs/RECETTE.md](docs/RECETTE.md)
+- Les versions en prod : [CHANGELOG.md](CHANGELOG.md)
 
 ## Me contacter
 
