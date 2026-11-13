@@ -1,1 +1,26 @@
-/* Rempli par le lot footer */
+/* Lot 4 : footer */
+.footer {
+  padding: 36px 0;
+  border-top: 1px solid var(--trait);
+  font-size: .92rem;
+  color: var(--texte-doux);
+}
+
+.footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 28px;
+}
+
+.footer p { margin: 0; }
+
+.footer__nom { color: var(--texte); font-weight: 500; }
+
+.footer__liens { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+
+.footer__liens a { color: var(--texte-doux); text-decoration: none; }
+.footer__liens a:hover { color: var(--bordeaux); text-decoration: underline; }
+
+@media (max-width: 600px) { .footer__inner { flex-direction: column; align-items: flex-start; } }

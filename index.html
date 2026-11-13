@@ -23,26 +23,122 @@
 
   <!-- ===== Lot 1 : hero (branche feature/hero-section) ===== -->
   <header class="hero" id="haut">
-  </header>
+    <div class="conteneur hero__inner">
+      <p class="hero__nom">Adrien Cardot</p>
+      <h1 class="hero__titre">Je monte et je refais des boutiques Shopify qui vendent.</h1>
+      <p class="hero__texte">
+        Développeur Shopify freelance depuis quelques années, je travaille avec des marques
+        de mode, de déco, d'alimentaire ou de sport. Création de boutique, migration, refonte,
+        ou juste la fonction qui manque : je m'occupe du site pour que vous puissiez vous occuper du reste.
+      </p>
+      <div class="hero__actions">
+        <a class="bouton" href="#projets">Voir mes projets</a>
+        <a class="bouton bouton--clair" href="#contact">Me parler de votre projet</a>
+      </div>
+    </div>  </header>
   <!-- ===== fin hero ===== -->
 
   <main>
 
     <!-- ===== Lot 2 : projets (branche feature/projets) ===== -->
     <section class="projets" id="projets">
-    </section>
+    <div class="conteneur">
+      <h2>Quelques projets</h2>
+      <p class="projets__intro">Une partie des boutiques sur lesquelles j'ai travaillé. Chaque fiche détaille ce qui a été fait.</p>
+      <ul class="projets__grille">
+        <li class="projet">
+          <a class="projet__lien" href="https://adriencardot.com/products/kult-paris" target="_blank" rel="noopener">
+            <img class="projet__image" src="https://cdn.shopify.com/s/files/1/0985/2066/2341/files/PortfolioAdrienCardot_1080x1080px_12_1df14c75-bc95-4c2b-b95b-e7e403b7971e.png?v=1777657373&width=540" alt="Aperçu du site KULT Paris" width="540" height="540" loading="lazy">
+            <h3 class="projet__nom">KULT Paris</h3>
+            <p class="projet__texte">Concept store parisien : art, design et objets de grandes maisons.</p>
+          </a>
+        </li>
+        <li class="projet">
+          <a class="projet__lien" href="https://adriencardot.com/products/panafrica" target="_blank" rel="noopener">
+            <img class="projet__image" src="https://cdn.shopify.com/s/files/1/0985/2066/2341/files/PortfolioAdrienCardot_1080x1080px_6.png?v=1766858299&width=540" alt="Aperçu du site Panafrica" width="540" height="540" loading="lazy">
+            <h3 class="projet__nom">Panafrica</h3>
+            <p class="projet__texte">Chaussures inspirées de l'Afrique, fabriquées de façon responsable.</p>
+          </a>
+        </li>
+        <li class="projet">
+          <a class="projet__lien" href="https://adriencardot.com/products/danyberd" target="_blank" rel="noopener">
+            <img class="projet__image" src="https://cdn.shopify.com/s/files/1/0985/2066/2341/files/PortfolioAdrienCardot_1080x1080px_9.png?v=1766930407&width=540" alt="Aperçu du site Danyberd" width="540" height="540" loading="lazy">
+            <h3 class="projet__nom">Danyberd</h3>
+            <p class="projet__texte">Mode masculine premium à prix justes.</p>
+          </a>
+        </li>
+        <li class="projet">
+          <a class="projet__lien" href="https://adriencardot.com/products/house-of-freia" target="_blank" rel="noopener">
+            <img class="projet__image" src="https://cdn.shopify.com/s/files/1/0985/2066/2341/files/PortfolioAdrienCardot_1080x1080px_7.png?v=1766922186&width=540" alt="Aperçu du site House of Freia" width="540" height="540" loading="lazy">
+            <h3 class="projet__nom">House of Freia</h3>
+            <p class="projet__texte">Compléments alimentaires haut de gamme.</p>
+          </a>
+        </li>
+        <li class="projet">
+          <a class="projet__lien" href="https://adriencardot.com/products/od-run" target="_blank" rel="noopener">
+            <img class="projet__image" src="https://cdn.shopify.com/s/files/1/0985/2066/2341/files/PortfolioAdrienCardot_1080x1080px_3.png?v=1766354415&width=540" alt="Aperçu du site Od Run" width="540" height="540" loading="lazy">
+            <h3 class="projet__nom">Od Run</h3>
+            <p class="projet__texte">Magasin de running qui relie ses ventes boutique et en ligne.</p>
+          </a>
+        </li>
+        <li class="projet">
+          <a class="projet__lien" href="https://adriencardot.com/products/magicdiet" target="_blank" rel="noopener">
+            <img class="projet__image" src="https://cdn.shopify.com/s/files/1/0985/2066/2341/files/67c97b30b57490c737479e52_Adrien_4.webp?v=1764454782&width=540" alt="Aperçu du site Magic Diet" width="540" height="540" loading="lazy">
+            <h3 class="projet__nom">Magic Diet</h3>
+            <p class="projet__texte">Appli de recettes healthy et boutique en ligne.</p>
+          </a>
+        </li>
+      </ul>
+    </div>    </section>
     <!-- ===== fin projets ===== -->
 
     <!-- ===== Lot 3 : contact (branche feature/formulaire-contact) ===== -->
     <section class="contact" id="contact">
-    </section>
+    <div class="conteneur contact__inner">
+      <div class="contact__texte">
+        <h2>Un projet en tête ?</h2>
+        <p>Dites-m'en deux mots. Je réponds en général sous 48&nbsp;h, avec une première idée du travail et du budget.</p>
+        <p>Vous préférez écrire directement : <a href="mailto:contact@adriencardot.com">contact@adriencardot.com</a></p>
+      </div>
+      <form class="contact__form" id="form-contact" novalidate>
+        <label>Votre nom
+          <input type="text" name="nom" autocomplete="name" required>
+        </label>
+        <label>Votre e-mail
+          <input type="email" name="email" autocomplete="email" required>
+        </label>
+        <label>Le projet
+          <select name="type">
+            <option>Création de boutique</option>
+            <option>Refonte</option>
+            <option>Migration vers Shopify</option>
+            <option>Autre chose</option>
+          </select>
+        </label>
+        <label>Votre message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <p class="contact__erreur" id="contact-erreur" role="alert" hidden></p>
+        <button class="bouton" type="submit">Envoyer</button>
+      </form>
+    </div>    </section>
     <!-- ===== fin contact ===== -->
 
   </main>
 
   <!-- ===== Lot 4 : footer (branche feature/footer) ===== -->
   <footer class="footer">
-  </footer>
+    <div class="conteneur footer__inner">
+      <p class="footer__nom">Adrien Cardot · Développeur Shopify freelance</p>
+      <nav class="footer__liens" aria-label="Liens">
+        <a href="https://adriencardot.com" target="_blank" rel="noopener">Mon site</a>
+        <a href="https://www.malt.fr/profile/adriencardot" target="_blank" rel="noopener">Malt</a>
+        <a href="#contact">Contact</a>
+        <a href="#haut">Haut de page</a>
+      </nav>
+      <p class="footer__copie">© <span id="annee">2026</span> Adrien Cardot</p>
+    </div>
+    <script>document.getElementById('annee').textContent = new Date().getFullYear();</script>  </footer>
   <!-- ===== fin footer ===== -->
 
   <script src="js/contact.js" defer></script>
