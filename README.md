@@ -21,6 +21,16 @@ git clone https://github.com/adrien-cardot/Landing-Test-GitHub.git
 
 Pas de build, pas d'installation. Juste du HTML, du CSS et un peu de JavaScript.
 
+## Comment le projet avance
+
+- Prod : https://landing-adrien-cardot.vercel.app
+- Staging : https://landing-adrien-cardot-staging.vercel.app
+- Le circuit des branches et la maquette : [docs/SCHEMA.md](docs/SCHEMA.md)
+- Les règles de travail : [CONTRIBUTING.md](CONTRIBUTING.md)
+- Le déploiement et le retour arrière : [docs/DEPLOIEMENT.md](docs/DEPLOIEMENT.md)
+- La recette avant chaque mise en prod : [docs/RECETTE.md](docs/RECETTE.md)
+- Les versions en prod : [CHANGELOG.md](CHANGELOG.md)
+
 ## Me contacter
 
 Le plus simple, c'est par mail : contact@adriencardot.com
