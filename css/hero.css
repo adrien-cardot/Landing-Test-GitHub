@@ -1,1 +1,34 @@
-/* Rempli par le lot hero */
+/* Lot 1 : hero */
+.hero {
+  padding: 96px 0 80px;
+  border-bottom: 1px solid var(--trait);
+}
+
+.hero__inner { max-width: 760px; margin-left: max(20px, calc((100% - var(--largeur)) / 2 + 20px)); padding: 0; }
+
+.hero__nom {
+  margin: 0 0 18px;
+  color: var(--bordeaux);
+  font-weight: 500;
+  letter-spacing: .02em;
+}
+
+.hero__titre { font-size: clamp(2rem, 5vw, 3.2rem); }
+
+.hero__texte {
+  color: var(--texte-doux);
+  font-size: 1.1rem;
+  max-width: 620px;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+@media (max-width: 600px) {
+  .hero { padding: 64px 0 56px; }
+  .hero__inner { margin: 0 20px; }
+}
